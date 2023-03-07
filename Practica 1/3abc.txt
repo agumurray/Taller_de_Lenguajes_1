@@ -1,0 +1,28 @@
+En el lenguaje de programación C, existen varios tipos de datos que se pueden utilizar para representar enteros, cada uno con un rango de valores y una representación binaria diferente. A continuación, se muestra una lista de los tipos de datos más comunes para representar enteros en C, junto con su tipo de representación binaria y su rango:
+
+   1: int: representa enteros con signo en complemento a 2. El rango de valores va desde -2147483648 a 2147483647 (en sistemas de 32 bits).
+
+    2: unsigned int: representa enteros sin signo en binario puro. El rango de valores va desde 0 a 4294967295 (en sistemas de 32 bits).
+
+    3: short: representa enteros con signo en complemento a 2. El rango de valores va desde -32768 a 32767.
+
+    4: unsigned short: representa enteros sin signo en binario puro. El rango de valores va desde 0 a 65535.
+
+    5: long: representa enteros con signo en complemento a 2. El rango de valores va desde -2147483648 a 2147483647 (en sistemas de 32 bits).
+
+    6: unsigned long: representa enteros sin signo en binario puro. El rango de valores va desde 0 a 4294967295 (en sistemas de 32 bits).
+
+    7: long long: representa enteros con signo en complemento a 2. El rango de valores va desde -9223372036854775808 a 9223372036854775807 (en sistemas de 64 bits).
+
+    8: unsigned long long: representa enteros sin signo en binario puro. El rango de valores va desde 0 a 18446744073709551615 (en sistemas de 64 bits).
+
+Cada tipo de dato tiene un tamaño diferente en memoria y un rango de valores diferente, por lo que es importante elegir el tipo de dato adecuado para cada situación. La representación binaria también puede afectar el rango de valores y cómo se realizan las operaciones aritméticas en cada tipo de dato.
+
+modificadores:
+    -signed: este modificador se puede utilizar con los tipos de datos int, short y long para indicar que los valores representados son con signo. Este modificador no tiene ningún efecto en el tipo de dato unsigned.
+
+    -unsigned: este modificador se puede utilizar con los tipos de datos int, short y long para indicar que los valores representados son sin signo. Cuando se utiliza este modificador, el rango de valores que se puede representar aumenta, ya que el espacio de bits que se usa para representar el signo se utiliza para representar números positivos.
+
+    -long: este modificador se puede utilizar con el tipo de dato int para representar enteros con un rango mayor que el que se puede representar con int. También se puede utilizar con el tipo de dato double para representar números con una precisión mayor.
+
+    -short: este modificador se puede utilizar con el tipo de dato int para representar enteros con un rango menor que el que se puede representar con int.

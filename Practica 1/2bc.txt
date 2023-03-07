@@ -1,0 +1,10 @@
+b) Tanto el dato de tipo float como el double permiten representar numeros reales (con coma). La diferencia entre 
+uno y el otro es la cantidad de bytes que utilizan en memoria:
+                                                                float: 4 bytes
+                                                                double: 8 bytes
+Esto permite que el double tenga una mayor precision que el float.
+Es posible asignar valores de tipo float a variables de tipo double y viceversa, pero se debe tener en cuenta que
+puede perderse precision por el factor que se explica anteriormente.
+
+c) En esa situacion, se opera respetando las propiedades aritmeticas y el tipo de numero que se esta utilizando.
+
