@@ -1,0 +1,7 @@
+Estructura de control FOR: 
+    for(variable contadora, condicion de corte(limite), incremento o decremento) {
+        instrucciones
+    }
+Repite las instrucciones tantas veces como sea requerido.
+break: interrumpe las repeticiones, sale del for
+continue: salta nuevamene al inicio del for omitiendo instrucciones intermedias si las hay

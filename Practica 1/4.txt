@@ -1,0 +1,40 @@
+-Operadores aritmeticos:    
+    + suma
+    - resta
+    * producto
+    / division
+    % resto division
+
+-Operadores relacionales
+    > mayor que
+    < menor que
+    >= mayor o igual que
+    <= menor o igual que
+    = igual
+    != diferente
+
+-Operadores logicos
+    && and
+    || Operadores
+    ! not
+
+-Operadores de bits
+    & and bit a bit
+    | or bit a bit
+    ~ complemento a uno o negacion bit a bit
+    ^ xor bit a bit
+
+-Operadores de asignacion
+    = asignar
+    += asignar y sumar
+    -= asignar y restar
+    y asi con todas las operaciones aritmeticas
+
+-Operador condicional (ternario)
+
+    (condicion) ? exp1 : exp 2
+                 cumple  no cumple 
+
+    
+
+

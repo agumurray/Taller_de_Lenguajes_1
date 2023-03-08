@@ -1,0 +1,11 @@
+a- se imprimen todos los valores de i de manera consecutiva (entre 0 y 11)
+
+b- se imprimen todos los valores de i de manera consecutiva (entre 0 y 11)
+
+c- se imprimen todos los numeros pares entre 2 y 11
+
+d- se imprimen [1,2,4,8]
+
+e- se imprimen [11,9,7,5,3,1]
+
+f- se imprimen numeros del 1 al valor maximo de enteros con signo en C.
