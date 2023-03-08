@@ -17,8 +17,8 @@ int main() {
 
         if (res == a + b)
             score++;
-        return 0;
     }
+    
 
     switch (score) {
         case 0 : printf("E");
@@ -31,4 +31,5 @@ int main() {
         break;
         case 4 : printf("A");
     }
+    return 0;
 }
