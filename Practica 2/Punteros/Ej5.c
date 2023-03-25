@@ -17,6 +17,8 @@ int main() {
     for(i=0; i<15; i++) {
         printf("vector[%d] = %d \n", i, vector[i]);
     }
+
+    return 0;
 }
 
 void swapArray(int vector[], int longitud) {
