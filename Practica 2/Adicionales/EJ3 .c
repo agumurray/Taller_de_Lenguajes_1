@@ -17,13 +17,13 @@ int main() {
 
     char numero[10];
 
-    printf("[%s]", numToStr(numero, 27345724));
+    printf("[%s] \n", numToStr(numero, 27345724));
 
-    printf("Ingrese un numero del 0 al 99: \n");
-    int num;
-    scanf("%d", &num);
     char cadena[100];
-    printf("%s", numToText(cadena, num));
+    int num;
+    printf("Ingrese un numero del 0 al 99: ");
+    scanf("%d", &num);
+    printf("%d = %s \n", num, numToText(cadena, num));
 
     return 0;
 }
@@ -85,11 +85,11 @@ char* numToText(char cadena[], int num) {
             strcat(cadena, text[num%10]);
         }
     }
-    else if(num>30) {
+    else if(num>=30) {
         if (num % 10 == 0)
-            strcpy(cadena, text1[num]);
+            strcpy(cadena, text1[num/10 - 2]);
         else {
-            strcpy(cadena, text1[num/10 -2]);
+            strcpy(cadena, text1[num/10 - 2]);
             strcat(cadena, " y ");
             strcat(cadena, text[num%10]);
         }
