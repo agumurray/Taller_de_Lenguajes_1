@@ -3,10 +3,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-
 struct carta {
-    int numero;
+    int numero : 4;
     char palo[10];
 };
 
