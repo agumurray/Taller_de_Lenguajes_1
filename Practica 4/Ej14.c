@@ -2,15 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
-void inicializarMatriz(int** m,int n, int c) {
+void inicializarMatriz(int** m,int n) {
+    int c = 0;
     srand(time(NULL));
     int aux;
     for (int i = 0; i < n; i++) {
-        for (int j = 0; j < c; j++) {
+        for (int j = 0; j <= c; j++) {
             aux = rand() % 21;
             m[i][j] = aux;
         }
-
+        c++;
     }
 }
 
@@ -33,7 +34,7 @@ void liberarMemoria(int** m, int n) {
 }
 
 int main() {
-    printf("Ingrese de que orden quiere la matriz triangular inferior: \n");
+    printf("Ingrese de que orden quiere la matriz triangular inferior: ");
     int n;
     scanf("%d", &n);
     int c = 1;
@@ -45,7 +46,7 @@ int main() {
         c++;
     }
 
-    inicializarMatriz(m, n, c);
+    inicializarMatriz(m, n);
     imprimirMatriz(m,n);
     liberarMemoria(m, n);
     return 0;
