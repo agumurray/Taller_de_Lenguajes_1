@@ -1,0 +1,9 @@
+Atributo;Maximo;Minimo;Promedio
+Acidez fija;15.90;3.80;7.22
+Acidez volatil;1.58;0.08;0.34
+Acido citrico;1.66;0.00;0.32
+Azucares;65.80;0.60;5.44
+pH;4.01;2.72;3.22
+Sulfatos;2.00;0.22;0.53
+Alcohol;14.90;8.00;10.49
+Calidad;9.00;3.00;5.82
