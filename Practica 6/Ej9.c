@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define DEBUG 1
+#define DEBUG 0
 
 int buscarElemento(int *vector, int longitud, int elemento) {
     #if DEBUG
